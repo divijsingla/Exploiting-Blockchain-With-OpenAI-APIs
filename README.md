@@ -2,6 +2,7 @@
 Contains the solutions to the Tasks that I prepared as a mentor for the ACA Project
 
 Initially, there was an easy task for JavaScript basics, which was prepared by Rohan Ravi (co-mentor)
+
 Then, I prepared both of the Blockchain Tasks
 
 # Task 2.1: [Become A Blockchain Miner](https://docs.google.com/document/d/17qFM9vKWkLVz6PRR8OjgIQuXYfVC4UYQ0z-Ss-r9rsU/edit)
@@ -9,6 +10,7 @@ Then, I prepared both of the Blockchain Tasks
 # Task 2.2: [Become A Blockchain Developer](https://docs.google.com/document/d/10uD7wjIVYli19E2Y9Qpo71uHgQvmSha3vshplnOsDdI/edit?usp=sharing)
 
 Then, a task for teaching APIs was prepared by Rohan.
+
 Finally, the final task was prepared by me...
 
 # Final Task: Part I 
