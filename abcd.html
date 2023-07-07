@@ -1,0 +1,151 @@
+
+<!DOCTYPE html>
+<html lang="en" xmlns:v-bind="http://www.w3.org/1999/xhtml" xmlns:bind="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv=X-UA-Compatible content="IE=11">
+    <link rel="shortcut icon" type="image/png" href="/public/images/favicon.ico">
+    <title>CryptoPunks</title>
+    <meta name="description" content="10,000 unique collectible characters with proof of ownership stored on the Ethereum blockchain." />
+    <link rel="stylesheet" href="css/1.css">
+    <link rel="stylesheet" href="css/2.css">
+    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Montserrat:400,700">
+    <link rel="stylesheet" href="css/3.css">
+    <!-- production -->
+    <link rel="stylesheet" type="text/css" href="css/4.css" charset="utf-8" ></link>
+    <link rel="stylesheet" type="text/css" href="css/5.css" charset="utf-8" ></link>
+
+    <!-- Open Graph data -->
+    <meta property="og:title" content="CryptoPunks" />
+            <meta property="og:image" content="https://www.larvalabs.com/public/images/cryptopunks/shareimage.png" />
+    <meta property="og:description" content="10,000 unique collectible characters with proof of ownership stored on the Ethereum blockchain." />
+
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="CryptoPunks" />
+    <meta name="twitter:site" content="@larvalabs" />
+    <meta name="twitter:image" content="https://www.larvalabs.com/public/images/cryptopunks/shareimage.png" />
+    <meta name="twitter:description" content="10,000 unique collectible characters with proof of ownership stored on the Ethereum blockchain." />
+
+    <script src="browser.js"></script>
+
+    <script src="/public/components/jquery-2.2.4.min.js"></script>
+    <script src="/public/components/bootstrap/js/bootstrap.min.js"></script>
+
+    <script src="/public/javascripts/web3-0.19.0.min.js"></script>
+
+    
+        <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+        ga('create', 'UA-191940-2', 'auto');
+        ga('send', 'pageview');
+    </script>
+    </head>
+<body>
+
+
+
+    <div class="container_full hidden-xs">
+        <div class="row">
+            <div class="col-md-12 image_block">
+                <div id="openseadragon" style="width: 100%;" class="cryptopunk-map"></div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 text_block">
+                <h2 class="heading">
+                    JetSkii NFTs
+                </h2>
+
+                <div class='row'>
+                    <div class='col-md-4 punk-stat'>
+                        Current Lowest Price Punk Available
+                        <br>
+                        <b>47.69 ETH ($89,857.97 USD)</b>
+                    </div>
+                    <div class='col-md-4 punk-stat'>
+                        Number of Sales (Last 12 Months)
+                        <br>
+                        <b>2,189</b>
+                    </div>
+                    <div class='col-md-4 punk-stat'>
+                        Total Value of All Sales (Lifetime)
+                        <br>
+                        <b>1.01M&Xi; ($2.59B)</b>
+                    </div>
+                </div>
+                <div class="row m-t-20">
+                    <div class='col-md-4 punk-stat'>
+                        Value of Sales (24 Hours)
+                        <br>
+                        <b>105&Xi; ($199.52K)</b>
+                    </div>
+                    <div class='col-md-4 punk-stat'>
+                        Value of Sales (Week)
+                        <br>
+                        <b>1.23K&Xi; ($2.19M)</b>
+                    </div>
+                    <div class='col-md-4 punk-stat'>
+                        Value of Sales (4 Weeks)
+                        <br>
+                        <b>4.51K&Xi; ($8.13M)</b>
+                    </div>
+                </div>
+
+                <div class="row m-t-20" id="jj">
+                    <div class="col-md-6">
+                        <a type="button" class="btn btn-primary btn_detail top-owners w-100" onclick="preview()">
+                            Mint a new NFT!
+                        </a> 
+                        <p id="ipfs"></p>
+
+                    </div>
+                    
+                </div>
+
+                <h3 class="heading">
+                    Collection X3
+                    <br>
+                    <small><a href="/cryptopunks/topsales">For Sale</a></small>
+                </h3>
+                <div class="row" id="cont">
+                    <div class="col-md-2 col-sm-3 col-xs-6 container-punk-event-large">
+                        <div class="punk-image-container">
+                            <div><a title="My First NFT" href="/cryptopunks/details/5822" ><img src="jj.avif" width="144" height="144" alt="Punk 5822" class="pixelated" style="background: #638596"></a></div>
+                            <div class="punk-image-overlay-top-left punk-image-overlay-text">1</div>
+                        </div>
+                        <div class="m-t-10"><a href="/cryptopunks/details/5822">Knight</a></div>
+                        <div>3K&Xi; ($2.7M)</div>
+                        <div style="color:#9c9c9c;">Fri 23 Jun, 2023</div>
+                        <a type="button" data-nft=${nftaddress} class="btn btn-primary btn_detail top-owners w-100" href='/cryptopunks/leaderboard'>
+                            Buy Now
+                        </a>
+                      </div>
+                      <div class="col-md-2 col-sm-3 col-xs-6 container-punk-event-large">
+                        <div class="punk-image-container">
+                            <div><a title="My First NFT" href="/cryptopunks/details/5822" ><img src="j.jpg" width="144" height="144" alt="Punk 5822" class="pixelated" style="background: #638596"></a></div>
+                            <div class="punk-image-overlay-top-left punk-image-overlay-text">1</div>
+                        </div>
+                        <div class="m-t-10"><a href="/cryptopunks/details/5822">Del</a></div>
+                        <div>3K&Xi; ($2.7M)</div>
+                        <div style="color:#9c9c9c;">Fri 23 Jun, 2023</div>
+                        <a type="button" data-nft=${nftaddress} class="btn btn-primary btn_detail top-owners w-100" href='/cryptopunks/leaderboard'>
+                            Buy Now
+                        </a>
+                      </div>
+                </div>
+
+
+    <script src="/public/openseadragon/openseadragon.js"></script>
+    <script src="/public/openseadragon/openseadragon-canvas-overlay.js"></script>
+    <script src="/public/openseadragon/openseadragon-viewerinputhook.js"></script>
+
+</body>
+</html>
