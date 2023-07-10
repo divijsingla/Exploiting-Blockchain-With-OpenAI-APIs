@@ -1,7 +1,7 @@
 # Exploiting-Blockchain-With-OpenAI-APIs
 
-<img width="500" alt="Screenshot 2023-07-10 at 9 46 11 AM" src="https://github.com/divijsingla/Exploiting-Blockchain-With-OpenAI-APIs/assets/105979376/2cb4c791-5e41-4d36-b621-b10c503bdf18"> 
-<img width="500" alt="Screenshot 2023-07-10 at 9 48 39 AM" src="https://github.com/divijsingla/Exploiting-Blockchain-With-OpenAI-APIs/assets/105979376/4e4a0387-ee61-4295-a4e1-0bf8337833f3">
+<img width="400" alt="Screenshot 2023-07-10 at 9 46 11 AM" src="https://github.com/divijsingla/Exploiting-Blockchain-With-OpenAI-APIs/assets/105979376/2cb4c791-5e41-4d36-b621-b10c503bdf18"> 
+<img width="400" alt="Screenshot 2023-07-10 at 9 48 39 AM" src="https://github.com/divijsingla/Exploiting-Blockchain-With-OpenAI-APIs/assets/105979376/4e4a0387-ee61-4295-a4e1-0bf8337833f3">
 
 Contains the solutions to the Tasks that I prepared as a mentor for the ACA Project
 
