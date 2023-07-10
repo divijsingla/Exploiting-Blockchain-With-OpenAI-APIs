@@ -13,6 +13,9 @@ Then, a task for teaching APIs was prepared by Rohan.
 
 Finally, the final task was prepared by me...
 
+<img width="500" alt="Screenshot 2023-07-10 at 9 46 11 AM" src="https://github.com/divijsingla/Exploiting-Blockchain-With-OpenAI-APIs/assets/105979376/2cb4c791-5e41-4d36-b621-b10c503bdf18"> 
+<img width="500" alt="Screenshot 2023-07-10 at 9 48 39 AM" src="https://github.com/divijsingla/Exploiting-Blockchain-With-OpenAI-APIs/assets/105979376/4e4a0387-ee61-4295-a4e1-0bf8337833f3">
+
 # Final Task: Part I 
 ## [OpenAI NFT MarketPlace](https://docs.google.com/document/d/1dmR5o5-JHIJx9jcVHjR6z6YgBF3eo8psueYZMQPGZzM/edit?usp=sharing )
 This is the most interesting task. It runs on a nodeJS runtime environment. 
@@ -28,6 +31,7 @@ After NFT is minted, there appears a button to publish it on the marketplace.
 Instead of taking a user-input image, we will take a user-input text prompt and convert that NL Text into an image using DallE provided by openAI
 
 Finally, we will also implement cross-wallet NFT transfer functionality so that users can actually use the marketplace to buy NFTs
+
 
 
 
