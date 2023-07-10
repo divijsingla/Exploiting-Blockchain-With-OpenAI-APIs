@@ -1,4 +1,7 @@
 # Exploiting-Blockchain-With-OpenAI-APIs
+
+<img width="500" alt="Screenshot 2023-07-10 at 9 46 11 AM" src="https://github.com/divijsingla/Exploiting-Blockchain-With-OpenAI-APIs/assets/105979376/2cb4c791-5e41-4d36-b621-b10c503bdf18"> 
+<img width="500" alt="Screenshot 2023-07-10 at 9 48 39 AM" src="https://github.com/divijsingla/Exploiting-Blockchain-With-OpenAI-APIs/assets/105979376/4e4a0387-ee61-4295-a4e1-0bf8337833f3">
 Contains the solutions to the Tasks that I prepared as a mentor for the ACA Project
 
 Initially, there was an easy task for JavaScript basics, which was prepared by Rohan Ravi (co-mentor)
@@ -12,9 +15,6 @@ Then, I prepared both of the Blockchain Tasks
 Then, a task for teaching APIs was prepared by Rohan.
 
 Finally, the final task was prepared by me...
-
-<img width="500" alt="Screenshot 2023-07-10 at 9 46 11 AM" src="https://github.com/divijsingla/Exploiting-Blockchain-With-OpenAI-APIs/assets/105979376/2cb4c791-5e41-4d36-b621-b10c503bdf18"> 
-<img width="500" alt="Screenshot 2023-07-10 at 9 48 39 AM" src="https://github.com/divijsingla/Exploiting-Blockchain-With-OpenAI-APIs/assets/105979376/4e4a0387-ee61-4295-a4e1-0bf8337833f3">
 
 # Final Task: Part I 
 ## [OpenAI NFT MarketPlace](https://docs.google.com/document/d/1dmR5o5-JHIJx9jcVHjR6z6YgBF3eo8psueYZMQPGZzM/edit?usp=sharing )
